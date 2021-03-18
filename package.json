@@ -2,10 +2,10 @@
   "name": "universal-resume-template",
   "version": "3.1.0",
   "description": "Minimal and formal résumé (CV) website template for print, mobile, and desktop. https://bit.ly/ur_demo",
-  "homepage": "https://github.com/WebPraktikos/universal-resume",
+  "homepage": "https://vhcc.github.io/ucv/docs/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WebPraktikos/universal-resume.git"
+    "url": "https://github.com/VHCC/universal-CV.git"
   },
   "bugs": {
     "url": "https://github.com/WebPraktikos/universal-resume/issues"
@@ -13,8 +13,10 @@
   "license": "NonCommercial-ShareAlike 1.0 Generic",
   "author": "WebPraktikos <hi@webpraktikos.com>",
   "scripts": {
+    "predeploy": "npm run build",
     "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
-    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css",
+    "deploy": "ucv -d build"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.0.6",
