@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150100097-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-150100097-1');
+    gtag('set', {'content_group1': 'ucv Résumé ubiquiti'});
+
+  </script>
   <meta charset="UTF-8">
   <meta name="description" content="Software Developer">
   <meta name="keywords" content="resume,cv,IChen Chu,Frank Chu">
@@ -10,18 +24,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
-  <link href="./build.css" rel="stylesheet">
+  <link href="../css/build.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.js"></script>
+  <link href="../css/jBox_1.3.2.min.css" rel="stylesheet">
+  <link href="../css/jbox-demo.css" rel="stylesheet">
+
   <title>IChen Chu — Resume</title>
 </head>
 
 <style>
 
-  .pending {
-    color: red
+  body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
   }
 
-  .hyperlink {
-    color: blue;
+  .header2 {
+    color: #c16732;
+    font-size: 1.2em;
+  }
+
+  .titleText {
+    padding-top: 25px;
+  }
+
+  .sectionContent {
+    padding-left: 25px;
+  }
+
+  .listTitle {
+    padding-left: 15px;
   }
 
 </style>
@@ -30,7 +65,7 @@
   <main class="font-firago hyphens-manual">
 
     <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
+    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white" >
 
       <!-- Name -->
       <header class="flex items-center mb-8 md:mb-11">
@@ -39,48 +74,81 @@
           <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">Résumé</div>
           <div class="text-center initial">Software</div>
         </div>
-        <h1 class="text-2xl font-semibold text-gray-750 pb-px">
-          IChen Chu
-        </h1>
+        <div >
+          <h1 class="text-2xl font-semibold text-gray-750 pb-px titleText">
+            IChen Chu
+          </h1>
+          <span class="tooltip" title="https://vhcc.github.io/">
+            <a href="https://vhcc.github.io/" class="group" style="color: blue" target="_blank">
+              CV
+              <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+            </a>
+          </span>
+        </div>
       </header>
       <!-- end Name -->
 
+<!--      <div class="demo-buttons">-->
+<!--        <a href="https://stephanwagner.me/img/jBox/demo/image1.jpg" class="demo-img"-->
+<!--           data-jbox-image="gallery1" title="Navigate with your keyboard: Press the [right] or [left] key">-->
+<!--          <img src="https://stephanwagner.me/img/jBox/demo/image1-preview.jpg" alt="" >-->
+<!--        </a>-->
+<!--          <a href="https://stephanwagner.me/img/jBox/demo/image2.jpg" class="demo-img"-->
+<!--             data-jbox-image="gallery1" title="My image">-->
+<!--            <img src="https://stephanwagner.me/img/jBox/demo/image2.jpg" alt="" >-->
+<!--          </a>-->
+
+<!--        <a class="demo-img" href="https://stephanwagner.me/img/jBox/demo/image2.jpg" data-jbox-image="gallery1" title="jBox is smart, the next image gets preloaded"><img src="https://stephanwagner.me/img/jBox/demo/image2-preview.jpg" alt=""></a>-->
+<!--        <a class="demo-img" href="https://stephanwagner.me/img/jBox/demo/image3.jpg" data-jbox-image="gallery1" title="You can easily group your images into galleries"><img src="https://stephanwagner.me/img/jBox/demo/image3-preview.jpg" alt=""></a>-->
+<!--        <a class="demo-img" href="https://stephanwagner.me/img/jBox/demo/image4.jpg" data-jbox-image="gallery1" title="As usual, attaching jBox to images is easy as pie"><img src="https://stephanwagner.me/img/jBox/demo/image4-preview.jpg" alt=""></a>-->
+<!--        <a href="https://stephanwagner.me/img/jBox/demo/NOT-FOUND.jpg" data-jbox-image="gallery1" title="You can adjust this image-not-found notice with CSS"></a>-->
+<!--      </div>-->
 
       <!-- Page -->
 
       <!-- Column -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto" style="height: auto; padding-bottom: 50px">
 
-        <section class="mt-8 first:mt-0">
+        <section class="mt-8 first:mt-0" >
 
           <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 print:font-normal header2">
               PROFILE
             </h2>
 
 <!--           contents -->
-
-            <section class="mb-4.5 break-inside-avoid">
+            <section class="mb-4.5 break-inside-avoid sectionContent">
 
               <p class="mt-2.1 text-md text-gray-700 leading-normal" >
-                6+ years experience in Android developing, integrating and performance optimization, UI-customization.
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                <b>7+</b> years experience in Java.
               </p>
 
               <p class="mt-2.1 text-md text-gray-700 leading-normal" >
-                5+ years demonstrated experience in architecting, designing and supporting enterprise-level internet scale services/solutions hosted on Cloud.
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                <b>5+</b> years demonstrated experience in architecting, designing and supporting enterprise-level internet scale services/solutions hosted on Cloud.
               </p>
+
+              <p class="mt-2.1 text-md text-gray-700 leading-normal" >
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                <b>6+</b> years Android in developing, integrating and performance optimization, UI-customization.
+              </p>
+
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
                 Experience working closely with UI-Designer, Software/Hardware Engineering, PM, especially in the aspects of customize UI,
                 system performance, capacity management and scalability to ensure sustained service stability.
               </p>
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
                 Possess a sound understanding of Infrastructure aspects such as server configurations,
-                storage, network architecture, DataCenter Architecture in terms of enterprise security.
+                storage, network architecture, data-center architecture in terms of enterprise security.
               </p>
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                In my spare time I soho ERM system for a 100+ employees company and built apps.
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Built an ERM system for a <b>100+</b> employees company in Civil industry, improving the efficiency of management in execution and make it scale increasing 60%.
               </p>
 
             </section>
@@ -94,24 +162,23 @@
           <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
               STRENGTH
             </h2>
 
             <!--           contents -->
-            <section class="mb-4.5 break-inside-avoid">
-
+            <section class="mb-4.5 break-inside-avoid sectionContent">
               <p class="mt-2.1 text-gray-750 leading-normal" >
                 Cloud
               </p>
               <p class="mt-2.1 text-gray-750 leading-normal" >
-                Quick Learning
+                Reliable, High Quality
               </p>
               <p class="mt-2.1 text-gray-750 leading-normal" >
-                Reliable
+                Positive and Self-motivated
               </p>
               <p class="mt-2.1 text-gray-750 leading-normal" >
-                Collaboration
+                Team Collaboration
               </p>
               <p class="mt-2.1 text-gray-750 leading-normal" >
                 Problem Shooting
@@ -121,160 +188,254 @@
           </div>
         </section>
 
+
         <section class="mt-8 first:mt-0">
 
           <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              Dedicated for Ubiquiti
-            </h2>
+            <a href="https://www.104.com.tw/job/7ry50?jobsource=pda_b" class="group" style="color: blue" target="_blank">
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                PLUS FOR THIS OCCUPATION
+                <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+              </h2>
+            </a>
 
             <!--           contents -->
-            <section class="mb-4.5 break-inside-avoid">
+            <section class="mb-4.5 break-inside-avoid sectionContent">
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
                 <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Lots of experience of network protocols integration, such as TCP/UDP, MQTT, AMQP, Websocket, ProtoBuffer, JSON,
-                and familiar with performance improving in communicating between frontend to backend.
+                Strong skill in cloud developing and lots of experience in remote deploying,
+                and familiar with continuous deploy, continuous delivery, continuous integrity.
               </p>
+              <div class="plusImg">
+                <a href="../imgs/20221006_jenkins.png" class="demo-img"
+                   data-jbox-image="gallery1" title="CI/CD in dynamic-website with garmin-GPS tracking watch and device. ">
+                  <img src="../imgs/20221006_jenkins.png" alt="" >
+                </a>
+                <a href="../imgs/20221006_strava.png" class="demo-img"
+                   data-jbox-image="gallery1" title="the website will auto-sync by LEZYNE once new route-data uploaded.">
+                  <img src="../imgs/20221006_strava.png" alt="" >
+                </a>
+              </div>
+
+              <!-- ITEM -->
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
                 <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Highly interested at github society especially in research on AWESOME Android series.
-                Built an android Game "2048" and a board-game-like game "DNS" in my google account.
+                Experience with developing back-server by golang(visitor management system, middle ware for HR-data sync),
+                nodeJS (express + gulp, ERM system), python (web-crawler, image-analysis by pytorch, Lyrics-Statistics by jieba module).
               </p>
+              <div class="plusImg">
+                <a href="../imgs/20221006_erm.png" class="demo-img"
+                   data-jbox-image="gallery1" title="MEAN (MongoDB, Express, AngularJS, NodeJS)
+                                Website, dedicated for ERM system in 100+ employees company">
+                  <img src="../imgs/20221006_erm.png" alt="" >
+                </a>
+                <a href="../imgs/20221006_kiosk.png" class="demo-img"
+                   data-jbox-image="gallery1" title="visitor management system with mask-detect, thermal-detect in kiosk device.">
+                  <img src="../imgs/20221006_kiosk.png" alt="" >
+                </a>
+              </div>
+
+              <!-- ITEM -->
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
                 <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Strong capability to validate Feature and improving stability in android app.
+                Experience in developing image-data analysing by openCV330.
               </p>
+              <div class="plusImg">
+                <a href="../imgs/20221006_facedeteck_f.jpg" class="demo-img"
+                   data-jbox-image="gallery1" title="Implement Face Detect via OpenCV 330 and without OpenCVManager. Front Camera">
+                  <img src="../imgs/20221006_facedeteck_f.jpg" alt="" >
+                </a>
+                <a href="../imgs/20221006_facedeteck_b.jpg" class="demo-img"
+                   data-jbox-image="gallery1" title="Implement Face Detect via OpenCV 330 and without OpenCVManager. Back Camera">
+                  <img src="../imgs/20221006_facedeteck_b.jpg" alt="" >
+                </a>
+              </div>
+
+              <!-- ITEM -->
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
                 <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Solid knowledge in network using, had established small cloud service by NAS and linux server in internal network at home.
+                Lots of experience with Linux and docker environment, such as macOS-terminal, nas-synology, ubuntu-Server, docker-container and docker-image.
               </p>
+
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Experience in AWS Serverless technologies, which I established LineBot by Serverless.
+              </p>
+              <div class="plusImg">
+                <a href="https://github.com/VHCC/getLessonBot/blob/master/IMG/S__9560137.jpg?raw=true" class="demo-img"
+                   data-jbox-image="gallery1" title="Implement Face Detect via OpenCV 330 and without OpenCVManager. Front Camera">
+                  <img src="https://github.com/VHCC/getLessonBot/blob/master/IMG/S__9560137.jpg?raw=true" alt="" >
+                </a>
+              </div>
+
+
+              <!-- ITEM -->
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Strong and deep experience in RDBMS such as PostgreSQL, and NoSQL(MongoDB).
+              </p>
+
+
+
+
             </section>
           </div>
         </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              WORK EXPERIENCE
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Advantech Corp.
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Aug 2018 – Present | Senior Software Developer
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Leading a team of front-end Engineers to develop major product for Enterprise Service Business, it's a service dedicated for enterprise-level scenario as visitor management system.
-              </p>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Designed and implemented end to end server of cloud-service for multiple critical applications.
-              </p>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Designed, executed and implemented mask-detect, thermal module for mission critical apps.
-              </p>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Porting different devices and integrated multiple protocols into one app via wise-paas provided by Advantech.
-              </p>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Participating in the uninterrupted Cold Chain Management Solution, which I involved in inspection, Cargo receive and goods transport.
-              </p>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                2020 Advantech Industrial-IoT World Partner Conference, I'm in charge of the Check-in flow-system.
-              </p>
-
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Jsw Corp.
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Sep 2016 – Aug 2018 | Android Developer
-              </p>
-            </header>
-            <ul class="">
-
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Major in multiple customers ui implementation and collaborated with hardware team.
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Use Android SDK and JNI to control IPCam, Electronic Lock and other homely devices.
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Improved and refactor code-base from outsourcing.
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Flowring
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Apr 2014 – Aug 2016 | Java Web Developer
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal ">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Developed Software packages for various departments like IOT, Business Resource Management and Enterprise portal.
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal ">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Handling Replication issues like UI-changes, functional improvement and customize.
-              </li>
-
-            </ul>
-          </section>
-
-        </section>
-
-
-
-
       </div>
       <!-- end Column -->
 
-      <!--olumn -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+      <hr style="border: 1px solid #e2e8f0;">
+      <br>
 
+
+      <!--Column -->
+      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+          <section class="mt-8 first:mt-0">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                WORK EXPERIENCE
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <div class="companyLogo">
+                    <h3 class="text-2xl font-semibold text-gray-700 leading-snugish">
+                      Advantech Corp.
+                    </h3>
+                    <img src="https://lirp.cdn-website.com/81aad348/dms3rep/multi/opt/innotalks_Advantech-640w.png" height="30px">
+                  </div>
+
+                  <p class="leading-normal text-sm2 text-gray-650">
+                    Aug 2018 – Present | Senior Software Developer
+                  </p>
+                </header>
+                <div class="sectionContent">
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Improving execution in efficiency of program by <b>70%</b> which is main product in RBU, and increasing stability and readable of codebase which needs collaborated-develop.
+                    <a href="https://aics.advantech.com/zh/storevue/inspection" target="_blank">
+                      <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </p>
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Leading a <b>5</b> members-team which including web and app Engineers to develop major product for Enterprise Service Business, that is a service dedicated for enterprise-level scenario as visitor management system.
+                    <a href="https://reurl.cc/9p85KO" target="_blank">
+                      <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </p>
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    In order to COVID-19, developing mask-detect engine and porting into android edge devices which made by Advantech.
+                  </p>
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Designed and implemented end to end server of cloud for critical applications,
+                    such as Event-using tablet, Task-oriented kiosk.
+                  </p>
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Porting different devices and integrated with multiple protocols into one app via wise-paas provided and powered by Advantech, it applied in Cold-Chain system for logistics, wholesale and retail.
+                  </p>
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Participating in the uninterrupted Cold Chain Management Solution, which I involved in inspection, Cargo receive and goods transport,
+                    it's a <b>5000+</b> IOT-devices connection project.
+                  </p>
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    2020 Advantech Industrial-IoT World Partner Conference, I'm in charge of the Check-in flow-system, which conception is Enabling an intelligent Planet.
+                  </p>
+                </div>
+              </section>
+
+            </div>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <div class="companyLogo">
+                  <h3 class="text-2xl font-semibold text-gray-700 leading-snugish">
+                    Jsw Corp.
+                  </h3>
+                  <img src="https://shoplineimg.com/6178e68fa90ab30016ce019c/6193c7c29b0ef2003bac9c79/x140.webp?source_format=png" height="20px">
+                </div>
+
+                <p class="leading-normal text-sm2 text-gray-650">
+                  Sep 2016 – Aug 2018 | Android Developer
+                </p>
+              </header>
+              <div class="sectionContent">
+                <ul class="">
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Major in multiple customers ui implementation and collaborated with hardware team.
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Using Android SDK and develop JNI to control IPCam, Electronic Lock and homely devices.
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    Improved efficiency of code-base which established by outsourcing and decrease costs of maintenance.
+                  </li>
+                </ul>
+              </div>
+
+            </section>
+
+
+
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <div class="companyLogo">
+                <h3 class="text-2xl font-semibold text-gray-700 leading-snugish">
+                  Flowring
+                </h3>
+                <img height="40px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABxCAMAAABYxG7aAAAAsVBMVEX///8jGBUAZ7YjFxUAZrbW1NO9urlMQ0Hz8vJ0bWtXTkzIxcTl5ONaUlDg3t5EOjgxJiQ/NTKzr66OiIcoHRvs6+ublpXQzs1oYF6EfXysqKf4+Pg2LCnGw8J7dHO3s7Ln8fiWkI+kn55+strZ6PQadr2dxePP4vHB2u3f7PZhWVelyeW31OpQR0WRveAMbrlqptQger86isdSmM1mpNMsgcNYm89Ej8mFttw2hsVuZ2b+AVUyAAAUrElEQVR4nO1ciXayOrsGLZMMggYQgopYh+LY0db7v7DzZmJQtO3+/3O+ffbmWa6KMWDy8M4JlaQWLVq0aNGiRYsWLVq0aNGiRYsWLVq0aNGixZ/Earvc7DebzedmuVmnf3o0f1vgdLU/nk6vL18HwOLldX6czzePKf7TA/v7Aa8+T4eHTgXwYXE6Hj+3q5auOtZv7506Hig6i5e35X7d0lUAPx4PTJQeOofF+9t+s3p8XG+X89PzogMtb5/zli6O9PO5kKfF63F+PL5+HI/7zfoRp9v5Cyjn89tx8/inh/m3wPq1onyLRXF4eH75WKbS0+bt0Dl8zT+3f3qgfx54+dy5jcPz2xrj1euhszjOl/92VUznt5miNqxzeNumeHPqdE6fn/9uVUzfDnfkSqjmx6P0CB1P+2P6pwf8B4Ffr5g5LJ7BxgOOp/fDgYvX+xLjzXvnZTN/ariK7luKWiKUdPquNP2i7ofxDJCpls602uEnlV3MGy26JIVqHY7lF7ZBH5eniaGUhuNiSFi3nHHtUt9x9fR2ydT7x7ISgq4+XxcdrouptHrpvG/mV5roxKM+kiuwJYW+G9c/6AzOieiG7JlCfsqkn/plJzW5bDE92gBTteULIG0ysFgvxWO/TsC/1Up2akPSw1nuXlzpG67S44UOvl9FnxA6cPv/sZJWJ9DE+UWPQa9gqstelKxuE1mm7XaLbvDaBSAs2CXHyCp6zZB80ZLRFkNvIAvg5sotstCskSwn6l9f5huy5oeKHYdg6rNJx/DTnEUTp5X0eOq8LvdVtnDmlpP/RrJw5l3JxRkIGNHDTHTzz/zLWLToBuWE9GgiS5Z74Q2y5ERvIMvvoYaL3OdqW+PqcLrp6lYftMcXxFzvneO+Gm8RleFkdcULyKIHl2TFbtmneE10adolByNxD5Q+/+os1Vr64U2y5JF/gyx5KC5bkuXkjde4yxWYoEqEsPhMb3dNmW0Du7V9PiwrZssacaqQ1y9gNEuWxeUK2cMsmwnb5Q74JDVH8C9uu2bVWnJckFX+GO/qjm+R1Rd+ohiSPhQ/UB10vy/dQVoz7ofN3YAz/VyQtHGO8f7wsvws2lVqTJAWKFYJv5msIadAJf4L6+GOfbYtpnfJtN4PKBnzloh+DKSCrGnxW2qPC9AtslCEL8gK2W1CSVYdtGVJd7A8FIL18LBY3usKAJIopRI+dubztWieMCW4/KEmshQmBV7R12ETRyq137IsZrUr5imsMz0TOYwsIslmeVlwlKTlzMnqCrIKQ+px0aIfyZCGtB2NHOnHwNWKzGH/bSKDqTd4T6X0+X0L+sjA7utVQNVEVkZdNcrKlmnCu7HIIGc0+pQ5+sdg1tlhEkmPGcEVsnQ2BELRlWQxvY+ksoUMqV9Xz59gX1XC4w+SvvSDCOEcRLLzttzwRkQs8bW2Nxh4fSKTxkrgI+k57ebBhMlBwoY/Jccor3TOaDc25yuy+P0SklUj66yRv65VtsCQLLlK4Y/wWBWslx8lyI/EITxvpafTYT1PaROmfku76tpAlmXTvoZeaQuY17P4ARO6CTnuMcpoVI1H5NhlBuyKLIcSIk+kBrKMgVvqtyBLla/4/g77Sjj6/MPay+aBCeH+8LlnVospSN+pw2oKSsH9k8Zhtc1kdmXM+49Im74jxxM9IS1DQQeYIquRLMy0mxJ9TRZzHcxRCLJmjCxy0/TasG/OO63khIfLmPwWMBGtBYSm7y9b5hCZbUL9OhpDBzYTN662cY2IJcy+JBMYe8yy0WnuSK+qeEhMPlWdQxkmVDipFYef6AoDz8QYzCIcAPVlixTRA5d0mmo/Ch3WFcH6aorbG0Gj2KMkfS42zMQr1fBSFmiM4FkGWCeLO/hMBAdE6wJi2j1TGoj7j+l3yYCdYcu1fIm/UKRLDd7QkLBBDpJx2QI/RQ6o6Yjd6kVuTvuzyHE6D/ufcsXkcYGl9HBkJl6Rm/BbsiIRdkbUDwB6uqRQVzklxo4ciJD1RrpDPcG1GkIbEiMRLey+CLIquDntink//KL8CbHZQwfM1ell9UaHV5MscYsIWSKoKcmiX12SRRuBI4daqp7PD6DFyvlBSBMqkQw1SRbiTDZIliQZ5AAp/4FkPVVc4cfPuZLSF4hgj4S0NS1sMcOM3DpGTZIVuteSpbNbOhMCBZbYpN3AAmGalOzAU9I+XAubyEKGL90mizWO9AuyEOk08NiA0V2yliRq56/NrU5N2LNAY7XYL7eSUENvUMf4toGvlEwIgYwsQiDVCBQwaqilpyErGC+a9SIRcTSoIdKGeuUn6mrIM0HIpUQLz6bIKdaUDdi7q4bHUrDAu/0CKbD7Dv7w5W29l4RkNcRZzJJUmxyWxUyqcRYz4tSus2TI0Ck1uSRaUKCjkgFCFhWCLKQIRoRikK0J5mR1RVfazWDXIa7H8EVLxiSyGsDT2OQWWfilJOv0Y19IcQJ6N2Dp31ckm2Q26xZZNWfMq1S9SjiDeeGKRlC0qNUPKTUsOqUtBiO0SJJs+otFnBVq1Fy6GWFL8ViBiKASFdOI11VFi8ksbFXE2UVuzHj1Xmrh2++Wt/YkkYRs+vC0TG9Llk7tglurEs4QaXSnZRPIDunm0Q8xtX4T6unZXc/I8S6vtEjXQemUObTmehYjS6dCm4sWnZ2xqyT/2j01XD8XgQNJ9n4DEqDBKfPOavkkca93TZbkFfpVgFfWe4Ue6hEVo+6EfmIBKp0ID9apeCJWyipmdkmWNaLxHSnP3yILWJd5Zk5b2CXcoLyVd8laliHp4bvazAVAKGkyfVjfJYspWBJb5YiE0o0U1ubzGlzCZ15UZopaTVEnr7iFq9wwYFdpLP5xsqyyMkpaYnaGGyliYeguWZXEcPErZwhBx2nByFotV8I2NZCV8QHZkyGHwoMHGe1maqiMsxHrgoTJD8SEivBiIlq8UkSvyOICG98hqxJ8khZLeFTtzMeW3COrsgi9+OUGhvT4QsjaLjhZNyRL0eQLxGUJFCX9vifG3xc1G/OqZSrOrdgX5g1rxT/aEki3vKFEFihETEZacFxfYhKvm2QVNut5faPPLbI+XwlZ62chWY0GHm745UJOTIzU5VJdWcesKEterFyIa1RqT1eSZd0r0YhOoai60xbiaxpwk6xy+eu3krU5PtfIkpvJwlOvft+InujZRSPKSwWDkJ01FgbKF6sh4/K6tyqlo7tk8dU20YKHV2tyd8n6qzYr3R5Pe0LWer+icZbcFGeRAZlGLfOKWeOk2tgPKg6AhOy0vZA1PJSvQhBWoqlW7vKiANlQohEYs0qOaNFV43pV7saMK5J1+HnNgU0g3ZyA3+1zSryh0yOY3Ojrx8NRT0CIEJ4O856m7XqjWVgP8SyDdszLljE7vVowjGhLteif0RYbruWcyRHTWdpYOlF91rtosdThxO5VcWMW88o+218GpSSZBjO3+Ur3vwv9q8C+5f/lk/+vUd2S9fLbOadfKQQfH0/79H9hZH9D7A+lOzz80h1KmzcQjeN+9f3q2T8Dm0VFtH6Z70jHLSmZbre/NHb/b7Gt7iJ9/t256StI1Op1tfy3bMetLRr+rvonbUgyuf1I3wpbh5WQmGsrrMQBumnSqNufhtUClu4ww44tR+fnKtzUO7HJT2frNmQ7BD/gCGuXKoBVp2IQxEli+Uf/j40FPlXJOqW/OXVJttAc9ymtwUtkQ0XYdwN4M5BBNlqwCUH+RQMrRfaEm9edcTzZGZRDa6SxUo2leRmbTiyKDdJsQmBJIX0vnD3WElLVigNApc4D0bldqZGFEZxjTBx2EUAgvtEH5MxgoNc+VnBryrUdyr+KS1PiD/DLesNOIvGJhpAHb4mc7Fg8lee57co7eMt7kEvDmyMpeb4j+aCXSTrhKBlzshIegMViZwOvASjQUksPTETzaY3uGKyMKJKrq9xsDQJNtHL1hMPq0ZadU/v4gwWLdZWsztevKssScYj4lckDWZz0EN3n5MoJ+QQ3PQGgrkveEsiaASBdBnyWdyHG037kg0CZnCxyQHQnkw2LKY2WxGreVSRoMbOCLH2EJroymsVZFiEa06tUcowE2UKKhhaQdTZVhKZwERMwdDlZOAwzQCS7PPr3g0kVI/cmWXhRY+t+YJo+PdW/x6/rNd+iRZa9TXs3hbcoGZJPcJfH43GsydngPApgsjF8JMI0UIc02wgS+Wwysqxw2k+y0CLjtuU+VzrNU3QDJCtCgWR2Ncw0e5B4Y2mASAEC0hqi27PrrBzE0Y2kqdxzgCxSpS/IUvouWdbwkVxbMikA17xJQH2X8t0K4Pb08nI6Lit7KLdvmO91kKzhcBjleQRvZ9uAv9ya+LOzMnTdSDnPylg94BUSrz9gZM2YVKrlko1WkqXn7lQyZU0f2grdYhhhKafFeCunM6ZbwmeuHBSbs+GmAFl4hGZYY7v6EqGGsZuo5JbvZE/c+XhYINbvkbWtb1Ne3H7QZLug2906h1ehrOl89Sj2VIael8B8Yc4uPUhENUUPe8hFXiY8ZBhFkd3tR9GASJ5TISvpKwpRGDlXTZMk0RragQEEDepZxFAFGgK+hwgS7DGrdeEAiZ1Lui3nNb8HZIV9+FZzRwaghxhZVs73rE5RUYgdlSuduXWPrKeKPyQLF8+32Fq9i5WNjtigu97gYn+WrqqB7Kmq5kZqlnjFrnwl8GQtm7joHDMfFwvZMTAWpkryHbPvDZjnrxh4MHOgLS6asgU0dGaVQcXKeVnV0dCECqw/lLt5xGFysmZkZUxjXjjmahggpErkxvkGSrj/VbMC07uSVct4qGw1Zy+ryqJZ5423pal4KgXCJCWG263s3JkyJTKiEG78TEPyKMQ6mC63NyPDtqZTshATTMPYMKULA+/DeTM4QTEJF9TAy1OD7DPGYTCLHbaj0oyQKBXGsks8vT6sFnwCxs5khgwgC9kjwI5J1jgBwcLGBEK5UJOThijhLllPL506Dh8NPnFVC8g63FDh4nknhax9yzL5g1yXHLi55EcecvvDEBhQxuc+aGiPMkOqxEMJ91ASOhWyBqo1c/kVXFIlZTZrHDB5OUNkpk9Q4snTnrsTUpTA72DrDL+dq2OKXOZkRYqWTCH+cEE8wQOPqJWUd4oU9ulmG6Uvo4iKeyCupn5DlrTsXOJ5eVGAwOuveo8PJn3rIjCz4Ob1uu5olCBtZCM4GA1haomdmRoPc5Sgl+REZ3yyTQFsjpOjc0EWKFSClIEtezmcm3QTn5A1Vs7y1BZbGWZYGtuZLStOVqz3jGKfim0uj/iW43NBFrhJQ4cIVh3JQ7D6mKxpaGOyqZVV90MbIbpluFgniL4jC1+KFgjXqbYXfnu8fBDxnUoUXhW9sO/7qqz5fs/NfNODA5/457ED4jWiGAIhYzIyukUPEVujGCaQpZo+qCuEN8j2sSPniu9bCfVyfWrgQzN3o+k0cmnU6oAiwkzH0z6aTKcTFNEydBKM5aRnUyTdgiwLIk9iszI0g9uZYWekmfQxDYMoNhBjeBnV9+4MjMP0/D1Z1M1dYXGab1dPT0+P2/nX9bN110tB6mAw7HqDAcxhMHPJDhEaIOuW5SgUjsgC1QT15JFHp6mDRiSu4vQQkpOYfG8T95YxZwcOEmJ9CJnQEOsR32xkUbIkvUe2yxNGoCkKsSK7fN+eW5IluZ5CyAr7Z1VDcE2aYIYJqeXHJMXAzEdrrDw9+wFZmD+5U9nWJh62eH+v/8+CQvSu4jGtljIQ0JRwVm4+9JBB+ANLkUOcFYOXNmOjDyTZFp5454TpY+YaurND1KbLOzMcATU+BAhwGk8iGVlhn2zJzlwRoSiFDzVKNfQRI0vPIXoxREl/SIO4vFxpg8Gb7IvvyaqFDz/DNVkZj+o8NCoWUwFBwZXLHmPDhuyNgSw/Nnoe2HI5yRzy8KDCjRcI2WSC6DxAJS0awUugH5HsFZk5+TJDO5/IgvBnimzHUwq78IZjg0TwJHSIZTQUMTH2uiSgNeGmCba07oQ8+Wj/hCzp6d7D0Q0S15By60zZaOjA1I6NzLeIBvo+yD4LeJRdhkkEjzOU7AK1HjpIJJtBCNEda1MQFkZWCCEr4svTjCynR63asHhgTGG5J0lGhWRpCXIDTMjCfr8rIlC4LE2hwXQi8eyTJrOtbD8iixYBG/XtBq63J5mX6RnPe/Eg6Y+GU9VGO564QoBN0x19EuLLOAv6j8E1ubSiFYFZZmQpOVyPa5HVgxZ9Qp8A0I2uqNEo3d2MFVh2gqyzsZvp4FKng+EsdlGM6b1zbGSM1WmcTZIu/20ga0LOzLuUrFtbjgTwssnIl5L1UH81lOsV5vMgdNixg0iQNUpkEup4ahnsstxQr3AENogcWIOzR/bL9IeWhG03JnIUmsMdIjsjMhrhE8lSJgiRZTHVk0UFq7RZZejgKLoD7gQsQOQb4EAwuD8brgWZGV8R58/mjdgjKeMh2Hwz+U6yJLxd/Fyymh6G4oVJHUIHvVbYxLqlRuDUUD8qMumgWCLmZDmQT4KdOicuSuxwqiH4BCbcNEAnVYhm+0EMfxOieSBZAw25ka70PLfcXcHJ8oc5V1jqDR3bRW5iQF5t2V03I6vWEBonidfPjVkcIcSsls520WCs2F4io+/IggDz63uWGG6mjwSj/rShFcy5V9nNMNDEcqmV72irnfQh5Jz2d5MxyRgn2kxyIgMPNDvAQR6Qcky0o/trrVESBjuQEj1KPLtY9FcSugMeQyZ0dgqydKN4cFrpkWg96A0D1VT4c1Mj42LVErTe1ZpLN3WsPn4oV9t7Ra9w3Py4nq4OSxZ9RXTCIc0CJWUc0gSQb9nSyXSwI+mknK+zzpidhMOxrlM6rHHlt/QxO1UZmIwAZ0CftVCKwTrsuZPKmLBzVctX4qlyb3oF0vk9w8VxOP22mloM7Z+1vIjXH4dLW05eFa7eyQbSFhTp8jpRrGrg8a+K1T8T6fZ1cZUL8n+n9fb4z9Kk/wYel6/vhzpXD4f318u6TQsGvNrMP75EDvT89THftP/t7w5wmj49Mjyl7b+RbNGiRYsWLVq0aNGiRYsWLVq0aNGiRYsWLVq0+HP4H3PVzKYVczSjAAAAAElFTkSuQmCC">
+              </div>
+
+              <p class="leading-normal text-sm2 text-gray-650">
+                Apr 2014 – Aug 2016 | Java Web Developer
+              </p>
+            </header>
+            <div class="sectionContent">
+              <ul class="">
+                <li class="mt-2.1 text-md text-gray-700 leading-normal ">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  Developed software-packages for various departments like IOT-dep, Business Resource Management and Enterprise portal.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal ">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  Handling Replication issues like UI-changes, functional improvement and customize.
+                </li>
+              </ul>
+            </div>
+
+          </section>
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid" style="padding-top: 25px">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
               EDUCATION
             </h2>
 
-            <section class="mb-4.5 break-inside-avoid">
+            <section class="mb-4.5 break-inside-avoid listTitle">
               <header>
                 <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                   National Taiwan University
                 </h3>
-                <p class="leading-normal text-md text-gray-650">
+                <p class="leading-normal text-sm2 text-gray-650">
                   2010 – 2012 | Master's Degree in Civil Engineering
                 </p>
               </header>
@@ -282,12 +443,12 @@
 
           </div>
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 National Chung Hsing University
               </h3>
-              <p class="leading-normal text-md text-gray-650">
+              <p class="leading-normal text-sm2 text-gray-650">
                 2006 – 2010 | Bachelor’s Degree in Water and Soil Conservation
               </p>
             </header>
@@ -301,17 +462,17 @@
           <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
               SKILLS
             </h2>
 
-            <section class="mb-4.5 break-inside-avoid">
+            <section class="mb-4.5 break-inside-avoid listTitle">
               <header>
                 <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                   Frontend
                 </h3>
               </header>
-              <div class="my-3.2 last:pb-1.5">
+              <div class="my-3.2 last:pb-1.5 skillList">
                 <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                   <li
                           class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
@@ -328,20 +489,36 @@
                   <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     Html
                   </li>
-
                 </ul>
+
+<!--                <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                  Javascript-->
+<!--                </p>-->
+<!--                <br>-->
+<!--                <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                  AngularJS-->
+<!--                </p>-->
+<!--                <br>-->
+<!--                <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                  Functional Programming-->
+<!--                </p>-->
+<!--                <br>-->
+<!--                <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                  Html-->
+<!--                </p>-->
+
               </div>
             </section>
 
           </div>
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 Backend
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li
                         class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
@@ -364,16 +541,36 @@
                   JavaEE (Spring Boot 2.X)
                 </li>
               </ul>
+
+<!--              <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                NodeJs-->
+<!--              </p>-->
+<!--              <br>-->
+<!--              <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                Python-->
+<!--              </p>-->
+<!--              <br>-->
+<!--              <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                GoLang-->
+<!--              </p>-->
+<!--              <br>-->
+<!--              <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                JavaEE (Hibernate + Spring + Struts 2)-->
+<!--              </p>-->
+<!--              <br>-->
+<!--              <p class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skillList" >-->
+<!--                JavaEE (Spring Boot 2.X)-->
+<!--              </p>-->
             </div>
           </section>
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 Mobile
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li
                         class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
@@ -400,18 +597,18 @@
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   AOSP
                 </li>
-
               </ul>
+
             </div>
           </section>
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 Cloud
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   AWS(EC2, Lambda)
@@ -434,13 +631,13 @@
 
         <section class="mt-8 first:mt-0">
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 Network
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   TCP/UDP
@@ -471,13 +668,26 @@
           </section>
 
 
-          <section class="mb-4.5 break-inside-avoid">
+
+
+        </section>
+      </div>
+
+
+      <hr style="border: 1px solid #e2e8f0;">
+      <br>
+
+      <!--Column -->
+      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+        <section class="mt-8 first:mt-0">
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 DevOps
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Jenkins
@@ -486,13 +696,13 @@
             </div>
           </section>
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 Version Control
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Git
@@ -504,13 +714,13 @@
             </div>
           </section>
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 IOT Device
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Nest
@@ -525,13 +735,13 @@
             </div>
           </section>
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 DataBase
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   MongoDB
@@ -548,19 +758,26 @@
 
 
 
-          <section class="mb-4.5 break-inside-avoid">
+          <section class="mb-4.5 break-inside-avoid listTitle">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                 Other
               </h3>
             </header>
-            <div class="my-3.2 last:pb-1.5">
+            <div class="my-3.2 last:pb-1.5 skillList">
               <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Linux Server (Ubuntu Server (16.04 LTS))
                 </li>
+                <br>
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Tomcat, Apache, nginx
+                  Tomcat
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  nginx
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Apache
                 </li>
               </ul>
             </div>
@@ -571,14 +788,14 @@
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
 
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
                 CONTACT
               </h2>
 
-              <section class="mb-4.5 break-inside-avoid">
+              <section class="mb-4.5 break-inside-avoid sectionContent">
                 <ul class="list-inside pr-7">
                   <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                    <a href="https://vhcc.github.io/" class="group">
+                    <a href="https://vhcc.github.io/" class="group" target="_blank">
                       https://vhcc.github.io/
                       <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                     </a>
@@ -603,6 +820,7 @@
         </section>
       </div>
 
+
     </div>
     <!-- end Page -->
 
@@ -610,4 +828,37 @@
 
 </body>
 
+<style>
+
+  .companyLogo {
+    display: inline-flex;
+  }
+
+  .companyLogo img {
+    margin-left: 10px;
+  }
+
+  .skillList {
+    margin-left: 15px;
+    /*display: inline-flex;*/
+  }
+
+  .plusImg {
+    margin-top: 10px;
+  }
+
+
+</style>
+<script>
+
+  new jBox('Image');
+
+  new jBox('Tooltip', {
+    attach: '.tooltip',
+    theme: 'TooltipDark'
+  });
+</script>
+
 </html>
+
+

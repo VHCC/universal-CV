@@ -14,8 +14,8 @@
   "author": "WebPraktikos <hi@webpraktikos.com>",
   "scripts": {
     "predeploy": "npm run build",
-    "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
-    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css",
+    "serve": "concurrently \\\"postcss ./tailwind.css -o css/build.css --watch\\\"  \\\"live-server ./docs \\\"",
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o css/build.css",
     "deploy": "ucv -d build"
   },
   "dependencies": {
