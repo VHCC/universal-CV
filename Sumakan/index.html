@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150100097-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-150100097-1');
+    gtag('set', {'content_group1': 'ucv Résumé Sumakan'});
+
+  </script>
+  <meta charset="UTF-8">
+  <meta name="description" content="Software Developer">
+  <meta name="keywords" content="resume,cv,IChen Chu,Frank Chu">
+  <meta name="author" content="IChen.Chu">
+  <!-- <meta name="robots" content="noindex"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
+  <link href="../css/build.css" rel="stylesheet">
+  <link href="../css/ichen_top.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/jBox_1.3.2.min.js"></script>
+  <link href="../css/jBox_1.3.2.min.css" rel="stylesheet">
+  <link href="../css/jbox-demo.css" rel="stylesheet">
+
+  <title>IChen Chu — Résumé</title>
+</head>
+
+<body>
+  <main class="font-firago hyphens-manual">
+
+    <!-- Page -->
+    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white" >
+
+      <!-- Name -->
+      <header class="flex items-center mb-8 md:mb-11">
+        <div class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
+             style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
+          <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">Résumé</div>
+          <div class="text-center initial">Software</div>
+        </div>
+        <div>
+          <h1 class="text-2xl font-semibold text-gray-750 pb-px titleText">
+            IChen Chu
+          </h1>
+          <span class="tooltip" title="https://vhcc.github.io/">
+            <a href="https://vhcc.github.io/" class="group" style="color: blue" target="_blank">
+              CV
+              <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+            </a>
+          </span>
+        </div>
+      </header>
+      <!-- end Name -->
+
+      <!-- Page -->
+
+      <!-- Column -->
+      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto" style="height: auto; padding-bottom: 50px">
+
+        <section class="mt-8 first:mt-0" >
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 print:font-normal header2">
+              PROFILE
+            </h2>
+            <div id="included_profiles"></div>
+          </div>
+        </section>
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+              STRENGTH
+            </h2>
+            <div id="included_strength"></div>
+          </div>
+        </section>
+
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                PLUS FOR THIS OCCUPATION
+              </h2>
+
+            <!--           contents -->
+            <section class="mb-4.5 break-inside-avoid sectionContent">
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Experience in cloud developing and in remote deploying,
+                and familiar with continuous deploy, continuous delivery, continuous integrity.
+              </p>
+              <div class="plusImg">
+                <a href="../imgs/20221006_jenkins.png" class="demo-img"
+                   data-jbox-image="gallery1" title="CI/CD in dynamic-website with garmin-GPS tracking watch and device. ">
+                  <img src="../imgs/20221006_jenkins.png" alt="" >
+                </a>
+                <a href="../imgs/20221006_strava.png" class="demo-img"
+                   data-jbox-image="gallery1" title="the website will auto-sync by LEZYNE once new route-data uploaded.">
+                  <img src="../imgs/20221006_strava.png" alt="" >
+                </a>
+              </div>
+
+              <!-- ITEM -->
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Experience with developing backend by Golang(visitor management system, middle ware for HR-data sync), full-stack via
+                MEAN (MongoDb Express AngularJs NodeJs), python (web-crawler, image-analysis by pytorch, Lyrics-Statistics by jieba module).
+              </p>
+              <div class="plusImg">
+                <a href="../imgs/20221006_erm.png" class="demo-img"
+                   data-jbox-image="gallery1" title="MEAN (MongoDB, Express, AngularJS, NodeJS)
+                                Website, dedicated for ERM system in 100+ employees company">
+                  <img src="../imgs/20221006_erm.png" alt="" >
+                </a>
+                <a href="../imgs/20221006_kiosk.png" class="demo-img"
+                   data-jbox-image="gallery1" title="visitor management system with mask-detect, thermal-detect in kiosk device.">
+                  <img src="../imgs/20221006_kiosk.png" alt="" >
+                </a>
+              </div>
+
+              <!-- ITEM -->
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Experience in developing image-data analysing by openCV330 and SeetaFace6 Engine.
+              </p>
+              <div class="plusImg">
+                <a href="../imgs/20221006_facedeteck_f.jpg" class="demo-img"
+                   data-jbox-image="gallery1" title="Implement Face Detect via OpenCV 330 and without OpenCVManager. Front Camera">
+                  <img src="../imgs/20221006_facedeteck_f.jpg" alt="" >
+                </a>
+                <a href="../imgs/20221006_facedeteck_b.jpg" class="demo-img"
+                   data-jbox-image="gallery1" title="Implement Face Detect via OpenCV 330 and without OpenCVManager. Back Camera">
+                  <img src="../imgs/20221006_facedeteck_b.jpg" alt="" >
+                </a>
+              </div>
+
+              <!-- ITEM -->
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Experience with Linux and docker developing and deploying, nas-synology, ubuntu-Server, docker-container and docker-image.
+              </p>
+
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Experience in AWS Serverless technologies, established LineBot by Serverless.
+              </p>
+              <div class="plusImg">
+                <a href="https://github.com/VHCC/getLessonBot/blob/master/IMG/S__9560137.jpg?raw=true" class="demo-img"
+                   data-jbox-image="gallery1" title="Implement Face Detect via OpenCV 330 and without OpenCVManager. Front Camera">
+                  <img src="https://github.com/VHCC/getLessonBot/blob/master/IMG/S__9560137.jpg?raw=true" alt="" >
+                </a>
+              </div>
+
+
+              <!-- ITEM -->
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                Skills in RDBMS as PostgreSQL, and NoSQL(MongoDB).
+              </p>
+            </section>
+          </div>
+        </section>
+      </div>
+      <!-- end Column -->
+
+      <hr style="border: 1px solid #e2e8f0;">
+      <br>
+
+
+      <!--Column -->
+      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+        <section class="mt-8 first:mt-0">
+
+          <section class="mt-8 first:mt-0">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                WORK EXPERIENCE
+              </h2>
+              <div id="included_work_advantech"></div>
+            </div>
+
+            <div id="included_work_jsw"></div>
+
+            </section>
+
+          </section>
+
+        <div id="include_flowring"></div>
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid" style="padding-top: 25px">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+              EDUCATION
+            </h2>
+            <div id="include_edu"></div>
+
+          </div>
+
+        </section>
+
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+              SKILLS
+            </h2>
+
+            <section class="mb-4.5 break-inside-avoid listTitle">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Frontend
+                </h3>
+              </header>
+              <div class="my-3.2 last:pb-1.5 skillList">
+                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                  <li
+                          class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Javascript
+                  </li>
+                  <li
+                          class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    AngularJS
+                  </li>
+                  <li
+                          class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Functional Programming
+                  </li>
+                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Html
+                  </li>
+                </ul>
+
+              </div>
+            </section>
+
+          </div>
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Backend
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  NodeJs
+                </li>
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Python
+                </li>
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  GoLang
+                </li>
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  JavaEE (Hibernate + Spring + Struts 2)
+                </li>
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  JavaEE (Spring Boot 2.X)
+                </li>
+              </ul>
+
+            </div>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Mobile
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Android
+                </li>
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  OpenCV 330
+                </li>
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  RxJava
+                </li>
+                <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  OKHttp
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  React Native
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  JNI
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  AOSP
+                </li>
+              </ul>
+
+            </div>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Cloud
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  AWS(EC2, Lambda)
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Azure - IaaS/PaaS
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Docker
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  K8s
+                </li>
+              </ul>
+            </div>
+          </section>
+
+
+        </section>
+
+        <section class="mt-8 first:mt-0">
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Network
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  TCP/UDP
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Json
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  ProtoBuffer
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  MQTT
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  AMQP
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  WebSockets
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Synology Nas DS216+II
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  DNS
+                </li>
+              </ul>
+            </div>
+          </section>
+
+        </section>
+      </div>
+
+
+      <hr style="border: 1px solid #e2e8f0;">
+      <br>
+
+      <!--Column -->
+      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+        <section class="mt-8 first:mt-0">
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                DevOps
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Jenkins
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Version Control
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Git
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  SourceTree
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                IOT Device
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Nest
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  IFTTT
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Alexa
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                DataBase
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  MongoDB
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  MySQL
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  MSSQL
+                </li>
+              </ul>
+            </div>
+          </section>
+
+
+
+          <section class="mb-4.5 break-inside-avoid listTitle">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Other
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5 skillList">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Linux Server (Ubuntu Server (16.04 LTS))
+                </li>
+                <br>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Tomcat
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  nginx
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Apache
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="mt-8 first:mt-0">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                CONTACT
+              </h2>
+              <div id="include_contact"></div>
+
+            </div>
+
+          </section>
+
+
+        </section>
+      </div>
+
+
+    </div>
+    <!-- end Page -->
+
+  </main>
+
+</body>
+<link href="../css/ichen_bottom.css" rel="stylesheet">
+</html>
+
+<script>
+  $(function(){
+    $("#included_profiles").load("../docs/sections/profiles.html");
+    $("#included_strength").load("../docs/sections/strength.html");
+    $("#included_work_advantech").load("../docs/sections/work_advantech.html");
+    $("#included_work_jsw").load("../docs/sections/work_jsw.html");
+    $("#include_contact").load("../docs/sections/contact.html");
+    $("#include_edu").load("../docs/sections/edu.html");
+    $("#include_flowring").load("../docs/sections/work_flowring.html");
+    $("#include_header").load("../docs/sections/header.html");
+  });
+</script>
+<script src="../js/jbox_ichen.js"></script>
+
+

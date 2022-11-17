@@ -1,0 +1,12 @@
+.companyLogo {
+    display: inline-flex;
+}
+
+.companyLogo img {
+    margin-left: 10px;
+}
+
+.skillList {
+    margin-left: 15px;
+    /*display: inline-flex;*/
+}
