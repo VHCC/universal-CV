@@ -26,6 +26,31 @@
     <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
     <link href="../css/build.css" rel="stylesheet">
     <link href="../css/ichen_top.css" rel="stylesheet">
+    
+    <script>
+      (function(h,o,u,n,d) {
+        h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+        d=o.createElement(u);d.async=1;d.src=n
+        n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+      })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-v4.js','DD_RUM')
+      DD_RUM.onReady(function() {
+        DD_RUM.init({
+          clientToken: 'pub85b3a2d873ecc03c9a8447ab626830e5',
+          applicationId: '82bc8c50-15e2-4dbd-94dd-9793ec9101b8',
+          site: 'us5.datadoghq.com',
+          service: 'ucv-resume',
+          env: 'prod',
+          // Specify a version number to identify the deployed version of your application in Datadog 
+          // version: '1.0.0',
+          sessionSampleRate: 100,
+          premiumSampleRate: 100,
+          trackUserInteractions: true,
+          defaultPrivacyLevel: 'mask-user-input',
+        });
+
+        DD_RUM.startSessionReplayRecording();
+      })
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/jBox_1.3.2.min.js"></script>
