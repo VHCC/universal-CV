@@ -1,0 +1,651 @@
+.instaFade[_ngcontent-c9] {
+    background: #181818;
+    font-family: Lato, helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-in;
+    animation-name: reset, fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in
+}
+
+.clear[_ngcontent-c9] {
+    clear: both
+}
+
+.spinner2[_ngcontent-c9] {
+    margin: 0;
+    width: 70px;
+    text-align: center;
+    position: absolute;
+    top: 22%;
+    left: 64%;
+    z-index: 1
+}
+
+.spinner3[_ngcontent-c9] {
+    margin: 0 auto;
+    width: 70px;
+    top: 22%;
+    left: 0;
+    right: 0
+}
+
+.instaFade[_ngcontent-c9] p[_ngcontent-c9] {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: justify
+}
+
+#cv[_ngcontent-c9] {
+    width: 90%;
+    max-width: 800px;
+    background: #f3f3f3;
+    margin: 30px auto
+}
+
+.mainDetails[_ngcontent-c9] {
+    padding: 25px 35px;
+    border-bottom: 2px solid #2196f3;
+    background: #fff
+}
+
+#name[_ngcontent-c9] h1[_ngcontent-c9] {
+    font-size: 2.2em;
+    font-weight: 700;
+    font-family: Rokkitt, Helvetica, Arial, sans-serif;
+    margin-bottom: 7px;
+    margin-top: 16px;
+    text-transform: capitalize
+}
+
+#name[_ngcontent-c9] h2[_ngcontent-c9] {
+    font-size: 1.4em;
+    margin-left: 2px;
+    font-family: Rokkitt, Helvetica, Arial, sans-serif;
+    color: #949494;
+    text-transform: capitalize
+}
+
+#mainArea[_ngcontent-c9] {
+    padding: 16px 40px 0;
+    background: #fff
+}
+
+#headshot[_ngcontent-c9] {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px
+}
+
+#headshot[_ngcontent-c9] img[_ngcontent-c9] {
+    width: 100%;
+    height: auto;
+    border-radius: 50px
+}
+
+#name[_ngcontent-c9] {
+    float: left
+}
+
+#contactDetails[_ngcontent-c9] {
+    float: right;
+    margin-top: 16px
+}
+
+#contactDetails[_ngcontent-c9] ul[_ngcontent-c9] {
+    list-style-type: none;
+    font-size: .9em;
+    margin-top: 2px
+}
+
+#contactDetails[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] {
+    margin-bottom: 3px;
+    color: #444
+}
+
+#contactDetails[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] a[_ngcontent-c9], a[href^=tel][_ngcontent-c9] {
+    color: #444;
+    text-decoration: none;
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in
+}
+
+#contactDetails[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] a[_ngcontent-c9]:hover {
+    color: #cf8a05
+}
+
+section[_ngcontent-c9] {
+    padding: 17px 0 0
+}
+
+section[_ngcontent-c9]:first-child {
+    border-top: 0
+}
+
+section[_ngcontent-c9]:last-child {
+    padding: 20px 0 10px
+}
+
+.sectionTitle[_ngcontent-c9] {
+    float: left;
+    width: 25%
+}
+
+.sectionContent[_ngcontent-c9] {
+    float: right;
+    width: 72.5%
+}
+
+.sectionTitle[_ngcontent-c9] h1[_ngcontent-c9] {
+    font-family: Rokkitt, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #2196f3
+}
+
+.sectionContent[_ngcontent-c9] h2[_ngcontent-c9] {
+    font-family: Rokkitt, Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 1px
+}
+
+.eduCompany[_ngcontent-c9] {
+    float: left;
+    width: 100%
+}
+
+.eduCompany[_ngcontent-c9] strong[_ngcontent-c9] {
+    font-size: 16px;
+    margin-right: 10px;
+    float: left
+}
+
+.subDetails[_ngcontent-c9] {
+    font-size: .8em !important;
+    font-style: italic;
+    margin-bottom: 6px;
+    margin-top: 4px
+}
+
+.eduCompany[_ngcontent-c9] .subDetails[_ngcontent-c9] {
+    float: left;
+    margin-bottom: 10px
+}
+
+.keySkills[_ngcontent-c9] {
+    list-style-type: none;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #444;
+    padding-left: 0
+}
+
+.keySkills[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] {
+    margin-bottom: 3px
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+    #headshot[_ngcontent-c9] {
+        display: none
+    }
+
+    .keySkills[_ngcontent-c9] {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2
+    }
+}
+
+@media all and (max-width: 601px) {
+    #cv[_ngcontent-c9] {
+        width: 95%;
+        margin: 10px auto;
+        min-width: 280px
+    }
+
+    #headshot[_ngcontent-c9] {
+        display: none
+    }
+
+    #contactDetails[_ngcontent-c9], #name[_ngcontent-c9] {
+        float: none;
+        width: 100%;
+        text-align: center
+    }
+
+    .sectionContent[_ngcontent-c9], .sectionTitle[_ngcontent-c9] {
+        float: none;
+        width: 100%
+    }
+
+    .sectionTitle[_ngcontent-c9] {
+        margin-left: -2px;
+        font-size: 1.25em
+    }
+
+    .keySkills[_ngcontent-c9] {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2
+    }
+}
+
+@media all and (max-width: 480px) {
+    .mainDetails[_ngcontent-c9] {
+        padding: 15px
+    }
+
+    section[_ngcontent-c9] {
+        padding: 15px 0 0
+    }
+
+    #mainArea[_ngcontent-c9] {
+        padding: 0 25px
+    }
+
+    .keySkills[_ngcontent-c9] {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1
+    }
+
+    #name[_ngcontent-c9] h1[_ngcontent-c9] {
+        line-height: .8em;
+        margin-bottom: 4px
+    }
+}
+
+@media print {
+    #cv[_ngcontent-c9] {
+        width: 100%
+    }
+}
+
+@-webkit-keyframes reset {
+    0%, 100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes fade-in {
+    0%, 40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes reset {
+    0%, 100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade-in {
+    0%, 40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.quickFade[_ngcontent-c9] {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-in;
+    animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in
+}
+
+.delayOne[_ngcontent-c9] {
+    -webkit-animation-delay: 0, .5s;
+    animation-delay: 0, .5s
+}
+
+.delayTwo[_ngcontent-c9] {
+    -webkit-animation-delay: 0, 1s;
+    animation-delay: 0, 1s
+}
+
+.delayThree[_ngcontent-c9] {
+    -webkit-animation-delay: 0, 1.5s;
+    animation-delay: 0, 1.5s
+}
+
+.delayFour[_ngcontent-c9] {
+    -webkit-animation-delay: 0, 2s;
+    animation-delay: 0, 2s
+}
+
+.delayFive[_ngcontent-c9] {
+    -webkit-animation-delay: 0, 2.5s;
+    animation-delay: 0, 2.5s
+}
+
+.preview-container[_ngcontent-c9] {
+    position: relative;
+    float: right;
+    width: 70%;
+    margin-top: 0;
+    height: 93.5vh;
+    padding-top: 0;
+    background: 0 0
+}
+
+.previewState[_ngcontent-c9] {
+    width: 100%
+}
+
+.preview-sidebar[_ngcontent-c9] {
+    position: fixed;
+    width: 572px;
+    background: #cecece !important;
+    left: 27px;
+    bottom: 0;
+    top: 60px
+}
+
+.preview-main[_ngcontent-c9] {
+    margin-left: 394px
+}
+
+button.dwnPdf[_ngcontent-c9] {
+    margin: 0 auto;
+    display: block;
+    padding: 15px 58px;
+    font-size: 20px
+}
+
+.previewAction[_ngcontent-c9] {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0
+}
+
+.previewAction[_ngcontent-c9] .btn-line[_ngcontent-c9] {
+    margin: 8px 0 10px 58px;
+    border: 1px solid #03a9f4;
+    color: #009ae0;
+    background: 0 0;
+    font-size: 18px;
+    padding: 12px 58px;
+    text-align: center;
+    width: 260px;
+    float: left
+}
+
+.dnwBtn[_ngcontent-c9] {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 10;
+    background: #4caf50;
+    border: #4caf50;
+    padding: 3px 14px;
+    -webkit-box-shadow: 1px 1px 5px 0 #33333373;
+    box-shadow: 1px 1px 5px 0 #33333373
+}
+
+.dnwBtn[_ngcontent-c9]:hover {
+    background: #42a545;
+    border: #409e43
+}
+
+.previewState[_ngcontent-c9] .dnwBtn[_ngcontent-c9] {
+    bottom: 30px;
+    right: 40px;
+    top: auto;
+    background-color: #4caf50 !important;
+    border: #4caf50;
+    padding: 12px 25px;
+    font-size: 16px
+}
+
+.progressStatus[_ngcontent-c9] {
+    width: 96px;
+    margin: 0 auto 30px;
+    border: 1px dashed #fff;
+    background: #fff;
+    padding: 8px 5px 5px;
+    text-align: center;
+    font-size: 11px;
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    right: 20px;
+    line-height: 15px;
+    border-radius: 6px;
+    display: none
+}
+
+.customizeLinks[_ngcontent-c9] {
+    position: fixed;
+    right: 25px;
+    top: 12%;
+    z-index: 5
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] {
+    margin: 0;
+    padding: 0
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] {
+    list-style: none;
+    position: relative;
+    margin: 0 0 15px;
+    text-align: center
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] i[_ngcontent-c9] {
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+    background: #54535c;
+    text-align: center;
+    line-height: 38px;
+    position: relative;
+    z-index: 4;
+    fill: #fff;
+    color: #fff
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] i[_ngcontent-c9] svg[_ngcontent-c9] {
+    width: 20px !important;
+    fill: #fff
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9]:hover {
+    cursor: pointer
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9]:hover span[_ngcontent-c9] {
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] span[_ngcontent-c9] {
+    font-size: 10px;
+    display: block;
+    padding: 2px 5px
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] i[_ngcontent-c9]:focus, .customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9] span[_ngcontent-c9]:focus, .customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9]:focus {
+    outline: 0
+}
+
+.tempCv[_ngcontent-c9] #scale[_ngcontent-c9] {
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    z-index: 1;
+    background: #fff;
+    padding: 6px;
+    border-radius: 18px
+}
+
+.tempCv[_ngcontent-c9] div#scale[_ngcontent-c9] button[_ngcontent-c9] {
+    background: #e0e0e0;
+    border: none;
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+    border-radius: 50%
+}
+
+.svgIcons[_ngcontent-c9] {
+    fill: #252525;
+    stroke: transparent
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li.active[_ngcontent-c9] i[_ngcontent-c9] {
+    background: #ffaf03
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li.active[_ngcontent-c9] i[_ngcontent-c9] .svgIcons[_ngcontent-c9] {
+    fill: #000;
+    stroke: transparent
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li[_ngcontent-c9]:hover i[_ngcontent-c9] {
+    -webkit-box-shadow: 0 1px 6px 0 #0000006e;
+    box-shadow: 0 1px 6px 0 #0000006e
+}
+
+#scale[_ngcontent-c9] {
+    background: #54535c;
+    padding: 5px;
+    border-radius: 18px;
+    position: relative;
+    width: 32px !important;
+    font-size: 11px;
+    right: 0;
+    display: block;
+    margin: 0 auto 15px;
+    color: #fff
+}
+
+div#scale[_ngcontent-c9] button[_ngcontent-c9] {
+    background: #e0e0e0;
+    border: none;
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+    border-radius: 50%
+}
+
+div#scale[_ngcontent-c9] span[_ngcontent-c9] {
+    padding: 4px 0;
+    font-size: 10px;
+    text-align: center;
+    display: block
+}
+
+div#scale[_ngcontent-c9] button[_ngcontent-c9]:hover {
+    -webkit-box-shadow: 0 1px 6px 0 #0000006e;
+    box-shadow: 0 1px 6px 0 #0000006e
+}
+
+.dwnIcon[_ngcontent-c9] {
+    font-weight: 700;
+    margin-right: 5px
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li.editorLink[_ngcontent-c9] i[_ngcontent-c9] {
+    font-size: 14px;
+    line-height: 30px
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li.editorLink[_ngcontent-c9] span[_ngcontent-c9] {
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+    opacity: 1;
+    right: 27px;
+    top: 5px;
+    padding-right: 8px
+}
+
+.previewState[_ngcontent-c9] {
+    position: relative
+}
+
+.previewState[_ngcontent-c9]:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: 0 0
+}
+
+.backdrop[_ngcontent-c9] {
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh
+}
+
+.modal-premium-box[_ngcontent-c9] p[_ngcontent-c9] {
+    font-size: 18px
+}
+
+@media (max-width: 730px) {
+    .customizeLinks[_ngcontent-c9] {
+        display: none
+    }
+}
+
+.upgrade-alert-modal[_ngcontent-c9] .modal-body[_ngcontent-c9] {
+    padding: 33px 24px
+}
+
+.upgrade-alert-modal[_ngcontent-c9] p[_ngcontent-c9] {
+    font-size: 16px;
+    line-height: 34px
+}
+
+.upgrade-alert-modal[_ngcontent-c9] .btn[_ngcontent-c9] {
+    color: #fff
+}
+
+.upgrade-alert-modal[_ngcontent-c9] .btn[_ngcontent-c9]:hover {
+    background: #319fff;
+    color: #fff
+}
+
+.upgrade-alert-modal[_ngcontent-c9] .btn[_ngcontent-c9]:active {
+    background: #0673d2;
+    color: #fff
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li.active.layout-link[_ngcontent-c9] i[_ngcontent-c9] {
+    color: #000
+}
+
+.customizeLinks[_ngcontent-c9] ul[_ngcontent-c9] li.layout-link[_ngcontent-c9] i[_ngcontent-c9]::before {
+    position: relative;
+    top: 2px;
+    left: 1px
+}

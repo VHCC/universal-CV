@@ -1,0 +1,35 @@
+.published[_ngcontent-c0] .page-content[_ngcontent-c0] {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.published[_ngcontent-c0] .main-container[_ngcontent-c0] {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    margin-top: 0;
+    padding: 0;
+    overflow: inherit;
+    background: #dee2e6
+}
+
+.mobile-nav[_ngcontent-c0] {
+    width: 100%;
+    float: left;
+    background: #e19d0a;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    height: 58px;
+    display: none
+}
+
+bs-footer[_ngcontent-c0] {
+    width: 100%
+}
+
+@media (max-width: 425px) {
+    .mobile-nav[_ngcontent-c0] {
+        display: block
+    }
+}

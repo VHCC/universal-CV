@@ -18,9 +18,9 @@
 
     </script>
     <meta charset="UTF-8">
-    <meta name="description" content="Software Developer">
-    <meta name="keywords" content="resume,cv,IChen Chu,Frank Chu">
-    <meta name="author" content="IChen.Chu">
+    <meta name="description" content="Software Developer,Software Engineer,Java Engineer">
+    <meta name="keywords" content="resume,Résumé,cv,IChen Chu,Frank Chu,r99521320,朱翌成">
+    <meta name="author" content="IChen.Chu,朱翌成,r99521320">
     <!-- 0401 -->
     <!-- <meta name="robots" content="noindex"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,12 @@
     <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
     <link href="../css/build.css" rel="stylesheet">
     <link href="../css/ichen_top.css" rel="stylesheet">
-    
+
+    <link href="../_2024_new/css/_2024_new.css" rel="stylesheet">
+    <link href="../_2024_new/css/_2024_new_1.css" rel="stylesheet">
+    <link href="../_2024_new/css/_2024_new_2.css" rel="stylesheet">
+    <link href="../_2024_new/css/_2024_new_3.css" rel="stylesheet">
+
     <script
         src="https://www.datadoghq-browser-agent.com/datadog-rum-v4.js"
         type="text/javascript">
@@ -57,6 +62,9 @@
     <link href="../css/jBox_1.3.2.min.css" rel="stylesheet">
     <link href="../css/jbox-demo.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="../css/an-skill-bar.css">
+    <script src="../js/an-skill-bar.js"></script>
+
     <title>IChen Chu — Résumé </title>
 </head>
 
@@ -68,57 +76,231 @@
 
         <!-- Name -->
         <header class="flex items-center mb-8 md:mb-11">
+            <div class="cvtooltip" title="IChen.Chu" style="padding-right: 20px">
+                <img _ngcontent-c14="" id="pimg" width="120px" height="120" style="border-radius: 50%;"
+                     src="../../img/avator_20240620.jpg" alt="ichenchu"/>
+            </div>
             <div class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
                  style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
                 <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">Résumé</div>
                 <div class="text-center initial">Software</div>
             </div>
-            <div>
+            <div style="padding-bottom: 20px;" >
                 <h1 class="text-2xl font-semibold text-gray-750 pb-px titleText">
                     IChen Chu
                 </h1>
+                <h2 style="color: #a5a4a4; font-weight: bold">Senior Software Engineer</h2>
                 <span class="tooltip" title="https://vhcc.github.io/">
-            <a href="https://vhcc.github.io/" class="group" style="color: blue" target="_blank">
-              CV
-              <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-            </a>
-          </span>
+<!--                    <a href="https://vhcc.github.io/" class="group" style="color: blue" target="_blank">-->
+<!--                      CV-->
+<!--                        <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>-->
+<!--                    </a>-->
+                </span>
             </div>
+            <div class="break-inside-avoid" style="padding-left: 200px">
+                <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                    CONTACT
+                </h2>
+
+                <div id="include_contact"></div>
+            </div>
+
         </header>
         <!-- end Name -->
 
+        <hr style="color: red; border: 1px solid #e2e8f0;">
+        <br>
 
         <!-- Page -->
-
         <!-- Column -->
-        <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
-
+        <div class="md:col-count-1 print:col-count-1" style="padding-bottom: 10px">
             <section class="mt-8 first:mt-0">
-
                 <!-- To keep in the same column -->
                 <div class="break-inside-avoid">
 
                     <h2 class="mb-4 font-bold tracking-widest text-sm2 print:font-normal header2">
-                        PROFILE
+                        SUMMARY
                     </h2>
                     <div id="included_profiles"></div>
 
                 </div>
             </section>
+        </div>
+
+        <!-- end Column -->
+
+        <hr style="color: red; border: 1px solid #e2e8f0;">
+        <br>
+
+        <!-- Column -->
+        <div class="md:col-count-2 print:col-count-2" style="padding-bottom: 20px">
 
             <section class="mt-8 first:mt-0">
 
                 <!-- To keep in the same column -->
-                <div class="break-inside-avoid">
+                <div class="break-inside-avoid" >
+
+                    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                        EDUCATION
+                    </h2>
+
+                    <div id="include_edu"></div>
+
+                </div>
+
+                <div class="break-inside-avoid" >
 
                     <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
                         STRENGTH
                     </h2>
 
                     <div id="included_strength"></div>
-
                 </div>
+
+
+                <div class="break-inside-avoid" style="padding: 10px">
+
+                    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                        SKILLS
+                    </h2>
+
+                    <section class="mb-4 break-inside-avoid listTitle">
+                        <header>
+                            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                                Backend
+                            </h3>
+                        </header>
+                        <div class="skillbar skill " >
+                            <div class="filled" data-width="85%" style="width: 85%;"></div>
+                            <span class="title">Java</span>
+                            <span class="percent">8.5/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="75%" style="width: 75%;"></div>
+                            <span class="title">NodeJs</span>
+                            <span class="percent">7.5/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="45%" style="width: 45%;"></div>
+                            <span class="title">Python</span>
+                            <span class="percent">4.5/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="35%" style="width: 35%;"></div>
+                            <span class="title">Golang</span>
+                            <span class="percent">3.5/10</span>
+                        </div>
+                    </section>
+
+                    <section class="mb-4 break-inside-avoid listTitle">
+                        <header>
+                            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                                Frontend
+                            </h3>
+                        </header>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="80%" style="width: 80%;"></div>
+                            <span class="title">Javascript</span>
+                            <span class="percent">8/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="75%" style="width: 75%;"></div>
+                            <span class="title">AngularJs</span>
+                            <span class="percent">7.5/10</span>
+                        </div>
+                    </section>
+
+                    <section class="mb-4 break-inside-avoid listTitle">
+                        <header>
+                            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                                DevOps
+                            </h3>
+                        </header>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="80%" style="width: 80%;"></div>
+                            <span class="title">Datadog</span>
+                            <span class="percent">8/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="75%" style="width: 75%;"></div>
+                            <span class="title">Docker</span>
+                            <span class="percent">7.5/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="60%" style="width: 60%;"></div>
+                            <span class="title">Jenkins</span>
+                            <span class="percent">6/10</span>
+                        </div>
+
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="45%" style="width: 45%;"></div>
+                            <span class="title">Kubernetes</span>
+                            <span class="percent">4.5/10</span>
+                        </div>
+                    </section>
+
+                    <section class="mb-4 break-inside-avoid listTitle">
+                        <header>
+                            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                                DataBase
+                            </h3>
+                        </header>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="80%" style="width: 80%;"></div>
+                            <span class="title">PostgreSQL</span>
+                            <span class="percent">8/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="70%" style="width: 70%;"></div>
+                            <span class="title">MongoDB</span>
+                            <span class="percent">7/10</span>
+                        </div>
+                    </section>
+
+                    <section class="mb-4 break-inside-avoid listTitle">
+                        <header>
+                            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                                Cloud
+                            </h3>
+                        </header>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="70%" style="width: 70%;"></div>
+                            <span class="title">AWS</span>
+                            <span class="percent">7/10</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="70%" style="width: 70%;"></div>
+                            <span class="title">Azure</span>
+                            <span class="percent">7/10</span>
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class="break-inside-avoid"  style="padding: 10px">
+                    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                        LANGUAGE
+                    </h2>
+
+                    <section class="mb-4 break-inside-avoid listTitle">
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="100%" style="width: 100%;"></div>
+                            <span class="title">Mandarin</span>
+                            <span class="percent">Native</span>
+                        </div>
+                        <div class="skillbar skill">
+                            <div class="filled" data-width="65%" style="width: 65%;"></div>
+                            <span class="title">English</span>
+                            <span class="percent">B2</span>
+                        </div>
+                    </section>
+                </div>
+
+
+
             </section>
+
+
 
             <section class="mt-8 first:mt-0">
 
@@ -129,10 +311,9 @@
                         WORK EXPERIENCE
                     </h2>
                     <div id="included_work_advantech"></div>
+                    <div id="included_work_jsw"></div>
+                    <div id="include_flowring"></div>
                 </div>
-
-
-
             </section>
         </div>
         <!-- end Column -->
@@ -142,326 +323,25 @@
         <br>
 
 
-        <!--olumn -->
-        <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+<!--        &lt;!&ndash;column &ndash;&gt;-->
+<!--        <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">-->
 
-            <section class="mt-8 first:mt-0">
+<!--            <section class="mt-8 first:mt-0">-->
 
-                <div id="included_work_jsw"></div>
+<!--                <div id="included_work_jsw"></div>-->
 
-                <div id="include_flowring"></div>
+<!--                <div id="include_flowring"></div>-->
+<!--&lt;!&ndash;                &lt;!&ndash; To keep in the same column &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="break-inside-avoid" style="padding-top: 25px">&ndash;&gt;-->
 
+<!--&lt;!&ndash;                    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">&ndash;&gt;-->
+<!--&lt;!&ndash;                        EDUCATION&ndash;&gt;-->
+<!--&lt;!&ndash;                    </h2>&ndash;&gt;-->
 
-                <!-- To keep in the same column -->
-                <div class="break-inside-avoid" style="padding-top: 25px">
-
-                    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
-                        EDUCATION
-                    </h2>
-
-                    <div id="include_edu"></div>
-
-                </div>
-
-            </section>
-
-
-            <section class="mt-8 first:mt-0">
-                <!-- To keep in the same column -->
-                <div class="break-inside-avoid">
-
-                    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
-                        SKILLS
-                    </h2>
-
-                    <section class="mb-4.5 break-inside-avoid listTitle">
-                        <header>
-                            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                                Frontend
-                            </h3>
-                        </header>
-                        <div class="my-3.2 last:pb-1.5 skillList">
-                            <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                    Javascript
-                                </li>
-                                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                    JQuery
-                                </li>
-                                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                    AngularJS
-                                </li>
-<!--                                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">-->
-<!--                                    Functional Programming-->
-<!--                                </li>-->
-<!--                                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">-->
-<!--                                    Html-->
-<!--                                </li>-->
-                            </ul>
-                        </div>
-                    </section>
-
-                </div>
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            Backend
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-<!--                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">-->
-<!--                                JavaEE (Hibernate + Spring + Struts 2)-->
-<!--                            </li>-->
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Spring Boot
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Spring Cloud Netflix
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                NodeJs
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                NodeJs
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Python
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                GoLang
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            Mobile
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Android
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                OpenCV 330
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                RxJava
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                OKHttp
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                React Native
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                JNI
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                AOSP
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            Cloud
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                AWS(EC2, Lambda)
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Azure - IaaS/PaaS
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-
-            </section>
-
-            <section class="mt-8 first:mt-0">
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            Network
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                TCP/UDP
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                RESTful API
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                ProtoBuffer
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                MQTT
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                AMQP
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                WebSockets
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                LoRa
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                LTE
-                            </li>
-<!--                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">-->
-<!--                                Synology Nas DS216+II-->
-<!--                            </li>-->
-<!--                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">-->
-<!--                                DNS-->
-<!--                            </li>-->
-                        </ul>
-                    </div>
-                </section>
-
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            DevOps
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Jenkins
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Datadog
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Docker
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Kubernetes
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            Version Control
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Git
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                SourceTree
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            IOT Device
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Nest
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                IFTTT
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Alexa
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            DataBase
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                MongoDB
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                MySQL
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                PostgreSQL
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-
-                <section class="mb-4.5 break-inside-avoid listTitle">
-                    <header>
-                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                            Web Server
-                        </h3>
-                    </header>
-                    <div class="my-3.2 last:pb-1.5 skillList">
-                        <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-<!--                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">-->
-<!--                                Linux Server (Ubuntu Server (16.04 LTS))-->
-<!--                            </li>-->
-<!--                            <br>-->
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Tomcat
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                nginx
-                            </li>
-                            <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                                Apache
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section class="mt-8 first:mt-0">
-
-                    <!-- To keep in the same column -->
-                    <div class="break-inside-avoid">
-
-                        <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
-                            CONTACT
-                        </h2>
-
-                        <div id="include_contact"></div>
-                    </div>
-
-                </section>
-
-            </section>
-        </div>
-
+<!--&lt;!&ndash;                    <div id="include_edu"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--            </section>-->
+<!--        </div>-->
     </div>
     <!-- end Page -->
 
@@ -476,10 +356,10 @@
     $(function () {
         $("#included_profiles").load("sections/profiles.html");
         $("#included_strength").load("sections/strength.html");
+        $("#include_edu").load("sections/edu.html");
         $("#included_work_advantech").load("sections/work_advantech.html");
         $("#included_work_jsw").load("sections/work_jsw.html");
         $("#include_contact").load("sections/contact.html");
-        $("#include_edu").load("sections/edu.html");
         $("#include_flowring").load("sections/work_flowring.html");
         $("#include_header").load("sections/header.html");
     });

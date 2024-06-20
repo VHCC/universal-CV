@@ -1,0 +1,398 @@
+.container.resumeTemplates[_ngcontent-c4] .card[_ngcontent-c4] {
+    overflow: hidden
+}
+
+.card-body[_ngcontent-c4] .lnr-checkmark-circle[_ngcontent-c4] {
+    display: none;
+    position: relative;
+    overflow: hidden
+}
+
+.card.active[_ngcontent-c4] .lnr-checkmark-circle[_ngcontent-c4], .card[_ngcontent-c4]:active .lnr-checkmark-circle[_ngcontent-c4] {
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    z-index: 3
+}
+
+.card.active[_ngcontent-c4] .card-body[_ngcontent-c4]:before {
+    position: absolute;
+    width: 89px;
+    height: 135px;
+    z-index: 2;
+    content: '';
+    bottom: -52px;
+    right: -39px;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    background: #004b7c
+}
+
+.tempIntro[_ngcontent-c4] {
+    text-align: center;
+    margin: 0 0 48px;
+    text-shadow: none;
+    color: #4e4e4e
+}
+
+.tempIntro[_ngcontent-c4] h2[_ngcontent-c4] {
+    font-size: 28px;
+    color: #202533;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-shadow: none
+}
+
+.tempIntro[_ngcontent-c4] p[_ngcontent-c4] {
+    line-height: 25px;
+    font-size: 14px;
+    color: #6d6d6d;
+    margin: 0 auto;
+    width: 65%
+}
+
+.card.active[_ngcontent-c4], .card[_ngcontent-c4]:active, .container.resumeTemplates[_ngcontent-c4] .card[_ngcontent-c4]:hover {
+    border: 4px solid #4caf50;
+    cursor: pointer
+}
+
+.gotoEditor[_ngcontent-c4] {
+    display: none
+}
+
+.card.active[_ngcontent-c4] .gotoEditor[_ngcontent-c4] {
+    display: block;
+    position: absolute;
+    bottom: 46%;
+    z-index: 5;
+    background: #004b7c;
+    color: #fff;
+    left: 31%;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 0 52px #00000085;
+    box-shadow: 1px 0 52px #00000085;
+    border: 1px solid #0b77bd;
+    cursor: pointer
+}
+
+.login-page[_ngcontent-c4] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    background: #dee2e6;
+    z-index: 999
+}
+
+.login-form[_ngcontent-c4] form[_ngcontent-c4] {
+    margin-bottom: 15px;
+    border: none;
+    padding: 0
+}
+
+.login-page[_ngcontent-c4] .container[_ngcontent-c4] {
+    min-height: 65vh;
+    z-index: 999;
+    padding: 20px;
+    position: relative
+}
+
+.form-holder[_ngcontent-c4] .row[_ngcontent-c4] {
+    margin: 0
+}
+
+.login-form[_ngcontent-c4] h3[_ngcontent-c4] {
+    margin-bottom: 34px;
+    color: #222
+}
+
+.login-form[_ngcontent-c4] p[_ngcontent-c4] {
+    letter-spacing: .4pt;
+    margin: 0 0 20px;
+    letter-spacing: .4pt
+}
+
+.login-page[_ngcontent-c4] .form-holder[_ngcontent-c4] .info[_ngcontent-c4] {
+    color: #181818;
+    background: 0 0
+}
+
+.login-page[_ngcontent-c4] .form-holder[_ngcontent-c4] div[class*=col-][_ngcontent-c4] {
+    padding: 0;
+    text-align: center
+}
+
+.social-btn[_ngcontent-c4] .btn[_ngcontent-c4] {
+    margin: 14px 0 5px;
+    font-size: 15px;
+    text-align: left;
+    line-height: 24px;
+    color: #fff !important;
+    padding: 12px 25px;
+    width: 280px !important
+}
+
+.card.active[_ngcontent-c4] {
+    display: inline-block;
+    margin: 0 auto
+}
+
+a.btn-block[_ngcontent-c4] {
+    height: auto;
+    display: inline-block
+}
+
+.brand-text[_ngcontent-c4] {
+    color: #0080e6;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 5
+}
+
+.brand-text[_ngcontent-c4] strong[_ngcontent-c4] {
+    text-transform: capitalize;
+    color: #0080e6;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif
+}
+
+.brand-text[_ngcontent-c4] img[_ngcontent-c4] {
+    width: 100% !important
+}
+
+.brand-text[_ngcontent-c4] i[_ngcontent-c4] {
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    color: #0c80dc
+}
+
+.brand-text[_ngcontent-c4] strong[_ngcontent-c4] b[_ngcontent-c4] {
+    margin: 0 2px
+}
+
+.setGoals[_ngcontent-c4] {
+    position: relative
+}
+
+.setGoals[_ngcontent-c4] i[_ngcontent-c4] {
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    color: #0c80dc;
+    margin: 2px 10px 0 0
+}
+
+.setGoals[_ngcontent-c4] i.rock[_ngcontent-c4] {
+    position: absolute;
+    top: 83px;
+    left: 268px;
+    opacity: .3;
+    font-size: 120px;
+    color: #bbdefb
+}
+
+.setGoals[_ngcontent-c4] ul[_ngcontent-c4] {
+    margin: 0;
+    padding: 0
+}
+
+.setGoals[_ngcontent-c4] ul[_ngcontent-c4] li[_ngcontent-c4] {
+    list-style: none;
+    padding: 8px 5px;
+    font-size: 15px
+}
+
+.bg-white[_ngcontent-c4] {
+    background: 0 0 !important;
+    border-radius: 15px;
+    overflow: hidden
+}
+
+.login-page[_ngcontent-c4] .form-holder[_ngcontent-c4] .form[_ngcontent-c4] {
+    min-height: 70vh;
+    padding: 75px;
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat
+}
+
+.setGoals[_ngcontent-c4] h3[_ngcontent-c4] {
+    margin: 0 5px 25px
+}
+
+.closeScreen[_ngcontent-c4] {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    color: #929292;
+    z-index: 11
+}
+
+.closeScreen[_ngcontent-c4]:hover {
+    border: 1px solid #efa506;
+    color: #efa506
+}
+
+img.selImg[_ngcontent-c4] {
+    max-width: 288px;
+    padding: 0
+}
+
+.selectedTemp[_ngcontent-c4] {
+    padding-top: 79px
+}
+
+.selectedTemp[_ngcontent-c4] h3[_ngcontent-c4] {
+    display: none
+}
+
+.selectedTemp[_ngcontent-c4] p[_ngcontent-c4] {
+    font-size: 13px;
+    color: #a2a2a2;
+    display: none
+}
+
+.login-page[_ngcontent-c4] .bg-white[_ngcontent-c4] {
+    border: none !important;
+    border-radius: 0
+}
+
+.or-seperator[_ngcontent-c4] {
+    height: 0;
+    margin: 16px auto 5px;
+    text-align: center;
+    border-top: 1px solid #929292;
+    width: 30%
+}
+
+.or-seperator[_ngcontent-c4] i[_ngcontent-c4] {
+    padding: 0 10px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -14px;
+    z-index: 1;
+    color: #403d3d;
+    background: #dee2e6;
+    display: none
+}
+
+@media only screen and (max-width: 600px) {
+    .brand-text[_ngcontent-c4] {
+        float: left;
+        width: 75%
+    }
+}
+
+.btn-guest[_ngcontent-c4], .social-btn[_ngcontent-c4] .btn-guest[_ngcontent-c4] {
+    background: 0 0;
+    color: #a2a2a2 !important;
+    text-align: center !important;
+    border: 0;
+    margin: 0 !important
+}
+
+.page.login-page[_ngcontent-c4] .brand-big[_ngcontent-c4] a[_ngcontent-c4] {
+    width: 151px
+}
+
+@media (min-width: 1200px) {
+    .container[_ngcontent-c4] {
+        max-width: 1216px
+    }
+}
+
+.login-page[_ngcontent-c4] .form-holder[_ngcontent-c4] {
+    background: 0 0;
+    width: 92%;
+    border-radius: 0;
+    overflow: hidden;
+    margin: 20px auto 50px
+}
+
+.login-form[_ngcontent-c4] {
+    width: 340px;
+    margin: 0 auto
+}
+
+.login-form[_ngcontent-c4] p[_ngcontent-c4] {
+    font-size: 12px;
+    color: #333
+}
+
+.login-form[_ngcontent-c4] h2[_ngcontent-c4] {
+    margin: 0 0 15px;
+    color: #333;
+    font-size: 18px
+}
+
+.social-btn[_ngcontent-c4] {
+    margin-top: 40px
+}
+
+.setupTxt[_ngcontent-c4] {
+    margin-top: 85px
+}</style>
+   <style>.spinner[_ngcontent-c5] {
+       margin: 100px auto 0;
+       width: 70px;
+       text-align: center
+   }
+
+.spinner[_ngcontent-c5] > div[_ngcontent-c5] {
+    width: 18px;
+    height: 18px;
+    background-color: #f9ac07;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: 1.4s ease-in-out infinite both sk-bouncedelay;
+    animation: 1.4s ease-in-out infinite both sk-bouncedelay
+}
+
+.spinner[_ngcontent-c5] .bounce1[_ngcontent-c5] {
+    -webkit-animation-delay: -.32s;
+    animation-delay: -.32s
+}
+
+.spinner[_ngcontent-c5] .bounce2[_ngcontent-c5] {
+    -webkit-animation-delay: -.16s;
+    animation-delay: -.16s
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 100%, 80% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 100%, 80% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
