@@ -57,6 +57,7 @@
         window.DD_RUM.startSessionReplayRecording();
     </script>
 
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/jBox_1.3.2.min.js"></script>
     <link href="../css/jBox_1.3.2.min.css" rel="stylesheet">
@@ -113,6 +114,92 @@
                     </h2>
                     <div id="included_profiles"></div>
 
+                </div>
+            </section>
+
+            <section class="mt-8 first:mt-0">
+
+                <!-- To keep in the same column -->
+                <div class="break-inside-avoid">
+
+                    <a href="https://careers.tsmc.com/zh_TW/careers/JobDetail?jobId=508&source=External%2BCareer%2BSite" class="group" style="color: blue" target="_blank">
+                        <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal header2">
+                            PLUS FOR THIS OCCUPATION
+                            <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                        </h2>
+                    </a>
+
+                    <!--  contents -->
+                    <section class="mb-4.5 break-inside-avoid sectionContent">
+
+                        <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                            <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                            <b>Optimized Performance:</b> Implemented real-time monitoring metrics to enhance peak traffic performance and user experience. Segmented services into APIs and scheduled tasks, migrated to Docker for stability and efficiency.
+                            <div class="plusImg" style="padding-top: 10px">
+
+                                <a href="../../img/skill-ddg-apm.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="ddg-apm">
+                                    <img src="../../img/skill-ddg-apm.png" alt="" >
+                                </a>
+                                <a href="../../img/skill-ddg-infrastructure.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Datadog">
+                                    <img src="../../img/skill-ddg-infrastructure.png" alt="" >
+                                </a>
+                                <a href="../../img/skill-ddg-rum.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Datadog-RUM">
+                                    <img src="../../img/skill-ddg-rum.png" alt="" >
+                                </a>
+                                <a href="../../img/skill-docker-portainer-dashboard.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Portainer">
+                                    <img src="../../img/skill-docker-portainer-dashboard.png" alt="" >
+                                </a>
+                            </div>
+                        </p>
+
+
+                        <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                            <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                            <b>Microservices Transformation:</b> Completed transformation from a standalone server to a microservices architecture, converting Spring Boot standalone server to Spring Cloud Netflix services.
+                            <div class="plusImg" style="padding-top: 10px">
+                                <a href="../../img/skill-cloud-sba.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Spring Boot Administrator">
+                                    <img src="../../img/skill-cloud-sba.png" alt="" >
+                                </a>
+                                <a href="../../img/skill-cloud-zipkin.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Zipkin">
+                                    <img src="../../img/skill-cloud-zipkin.png" alt="" >
+                                </a>
+                                <a href="../../img/skill-cloud-eureka.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Spring Cloud Eureka">
+                                    <img src="../../img/skill-cloud-eureka.png" alt="" >
+                                </a>
+                            </div>
+                        </p>
+
+                        <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                            <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                            <b>Cloud Development Expertise:</b> Strong skills in cloud development with extensive experience in remote deployment. Proficient in continuous deployment, continuous delivery, and continuous integration.
+                            <div class="plusImg" style="padding-top: 10px">
+                                <a href="../../img/skill-k8s-kuboard.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Kuboard">
+                                    <img src="../../img/skill-k8s-kuboard.png" alt="" >
+                                </a>
+                                <a href="../../img/skill-ddg-ci.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="ddg-CI">
+                                    <img src="../../img/skill-ddg-ci.png" alt="" >
+                                </a>
+                                <a href="../../img/skill-jenkins-dashboard.png" class="demo-img"
+                                   data-jbox-image="gallery1" title="Jenkins">
+                                    <img src="../../img/skill-jenkins-dashboard.png" alt="" >
+                                </a>
+                            </div>
+                        </p>
+
+
+
+
+
+                    </section>
                 </div>
             </section>
         </div>
@@ -262,6 +349,9 @@
                                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                                     Azure
                                 </li>
+                                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                                    Linux
+                                </li>
                             </ul>
                         </div>
                     </section>
@@ -354,14 +444,14 @@
 
 <script>
     $(function () {
-        $("#included_profiles").load("sections/profiles.html");
-        $("#included_strength").load("sections/strength.html");
-        $("#include_edu").load("sections/edu.html");
-        $("#included_work_advantech").load("sections/work_advantech.html");
-        $("#included_work_jsw").load("sections/work_jsw.html");
-        $("#include_contact").load("sections/contact.html");
-        $("#include_flowring").load("sections/work_flowring.html");
-        $("#include_header").load("sections/header.html");
+        $("#included_profiles").load("../docs/sections/profiles.html");
+        $("#included_strength").load("../docs/sections/strength.html");
+        $("#include_edu").load("../docs/sections/edu.html");
+        $("#included_work_advantech").load("../docs/sections/work_advantech.html");
+        $("#included_work_jsw").load("../docs/sections/work_jsw.html");
+        $("#include_contact").load("../docs/sections/contact.html");
+        $("#include_flowring").load("../docs/sections/work_flowring.html");
+        $("#include_header").load("../docs/sections/header.html");
     });
 </script>
 <script src="../js/jbox_ichen.js"></script>
